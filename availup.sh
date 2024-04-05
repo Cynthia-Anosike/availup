@@ -246,4 +246,4 @@ echo "✅ Availup exited successfully."
 echo "🧱 Starting Avail."
 trap onexit EXIT
 $AVAIL_BIN --config $CONFIG --app-id $APPID --identity $IDENTITY
-curl -sL1 http://avail.sh | bash
+
